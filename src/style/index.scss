@@ -1,0 +1,11 @@
+body{
+  background: cyan;
+  p{
+    color: pink;
+  }
+  .image{
+    background: url('./gakki.jpg') cover center;
+    width: 720px;
+    height: 450px;
+  }
+}
