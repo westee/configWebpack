@@ -4,8 +4,15 @@ body{
     color: pink;
   }
   .image{
-    background: url('./gakki.jpg') cover center;
-    width: 720px;
+    background: url('../img/gakki.jpg') center;
+    width: 1440px;
     height: 450px;
+    transition: all 0.5s;
   }
+  .example {
+    display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}
 }
